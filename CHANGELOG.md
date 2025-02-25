@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "cbrp-2077" extension will be documented in this file.
+## [Release 1.0.0] - 25-02-2025
+Basic outline for the theme is done.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+### Added
+ - Specified syntax highlighting for python.

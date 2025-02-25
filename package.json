@@ -1,9 +1,19 @@
 {
   "name": "cbrp-2077",
-  "displayName": "Cyberpunk 2077",
+  "displayName": "Cyberpunk-2077",
   "description": "Cyberpunk 2077 inspired theme",
-  "publisher": "BigStronkLad",
-  "version": "0.0.1",
+  "publisher": "DeNiAlTech",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigStronkLad/cbrp-2077"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "Cyberpunk",
+    "Cyberpunk 2077"
+  ],
   "engines": {
     "vscode": "^1.97.0"
   },

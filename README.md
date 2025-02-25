@@ -1,23 +1,10 @@
-# cbrp-2077 README
+# Cyberpunk 2077 Inspired Theme - VS Code
 
-## Working with Markdown
+## Initial Release
 
-CURRENTLY UNDER TESTING
+This is only the initial release. 
+Currently the theme only has support for python syntax highlighting, more will be added as this projects continues.
 
-To be added
-    -  Integrated Terminal Colors
-    -  Debug Colors
-    -  Testing Colors
-    -  Git Colors
 
-    -  Symbol Icons Colors ?
-    -  Debug Icons Colors ?
-
-    -  Notebook Colors ?
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Syntax Refrence
+![Python](img/python_ex.png)
