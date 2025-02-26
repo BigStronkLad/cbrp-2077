@@ -10,11 +10,12 @@
 		"editorLineNumber.foreground": "#5df2fc7f",
 
 		// Badge
-		"badge.background": "#ECBE5B",
-		"badge.foreground": "#E3E3E2",
+		"badge.background": "#FA932E",
+		"badge.foreground": "#120B10",
 
 		// Activity bar badge and sidebar title foreground
-		"activityBarBadge.background": "#ECBE5B",
+		"activityBarBadge.background": "#FA932E",
+		"activityBarBadge.foreground": "#120B10",
 		"sideBarTitle.foreground": "#0DE7C2",
 
 		// Editor Cursor
@@ -176,6 +177,59 @@
 		"keybindingLabel.background": "#5df2fcaf",
 		"keybindingLabel.foreground": "#E3E3E2",
 		"keybindingLabel.border": "#E3E3E23f",
+
+
+		// Notebook
+		"notebook.cellBorderColor": "#0DE7C2",
+		"notebook.cellToolbarSeparator": "#0DE7C27f",
+		"notebook.cellEditorBackground": "#0D080B",
+		"notebook.focusedCellBorder": "#ECBE5B",
+		"notebook.focusedEditorBorder": "#ECBE5B",
+
+		"notebookStatusSuccessIcon.foreground": "#0DE7C2",
+		"notebookStatusRunningIcon.foreground": "#B78415",
+		"notebookStatusErrorIcon.foreground": "#F32321",
+
+		// Debug Icons
+		"debugIcon.breakpointForeground": "#F32321",
+		"debugIcon.breakpointCurrentStackframeForeground": "#5CF1FA",
+		
+		"debugIcon.startForeground": "#1DEC83",
+		"debugIcon.pauseForeground": "#E7AE35",
+		"debugIcon.stopForeground": "#F32321",
+		"debugIcon.continueForeground": "#5CF1FA",
+		"debugIcon.restartForeground": "#1DEC83",
+		"debugIcon.stepBackForeground": "#5CF1FA",
+		"debugIcon.stepOverForeground": "#5CF1FA",
+		"debugIcon.stepIntoForeground": "#5CF1FA",
+		"debugIcon.stepOutForeground": "#5CF1FA",
+
+		"debugConsole.infoForeground": "#FA932E",
+		"debugConsole.errorForeground": "#F32321",
+		"debugConsole.warningForeground": "#B78415",
+		"debugConsoleInputIcon.foreground": "#0DE7C2",
+		
+		// Symbol Icons
+		"symbolIcon.classForeground": "#FA932E",
+		"symbolIcon.functionForeground": "#9C2BF6",
+		"symbolIcon.methodForeground": "#9C2BF6",
+		"symbolIcon.variableForeground": "#256FD2",
+
+		// Breadcrumbs
+		"breadcrumb.background": "#2D1011",
+		"breadcrumb.foreground": "#E7AE35",
+
+
+		// Git
+		"gitDecoration.addedResourceForeground": "#1DEC83",
+		"gitDecoration.modifiedResourceForeground": "#FA932E",
+		"gitDecoration.deletedResourceForeground": "#F32321",
+		"gitDecoration.renamedResourceForeground": "#D4D0CF",
+		"gitDecoration.stageModifiedResourceForeground": "#1DEC83",
+		"gitDecoration.stageDeletedResourceForeground": "#F32321",
+		"gitDecoration.untrackedResourceForeground": "#B78415",
+
+
 	},
 	"tokenColors": [
 		// PYTHON
@@ -284,6 +338,17 @@
 			"settings": {
 				"foreground": "#0DE7C2",
 				"fontStyle": "italic bold"
+			}
+		},
+		{
+			// Parameter Function Calls
+			"name": "Parameter Function Calls",
+			"scope": [
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#9C2BF6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -422,6 +487,17 @@
 			"settings": {
 				"foreground": "#D4D0CFaf",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			// Single-line Comment Symbol
+			"name": "Single-line Comment Symbol",
+			"scope": [
+				"punctuation.definition.comment.python"
+			],
+			"settings": {
+				"foreground": "#D4D0CFaf",
+				"fontStyle": "bold italic"
 			}
 		},
 		

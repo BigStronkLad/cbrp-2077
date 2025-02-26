@@ -3,7 +3,7 @@
   "displayName": "Cyberpunk 2077 Inspired Theme",
   "description": "Cyberpunk 2077 inspired theme",
   "publisher": "DeNiAlTech",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/BigStronkLad/cbrp-2077"
@@ -14,6 +14,7 @@
     "Cyberpunk",
     "Cyberpunk 2077"
   ],
+  "icon": "img/takemura_icon.jpg",
   "engines": {
     "vscode": "^1.97.0"
   },
