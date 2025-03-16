@@ -19,3 +19,7 @@ Basic outline for the theme is done.
 
 ### Fix
     - Fixed contrast issue on notification badge
+
+## [Release 1.1.0] - 16-03-2025
+### Added
+    - Added syntax highlighting for VHDL

@@ -18,6 +18,9 @@
 		"activityBarBadge.foreground": "#120B10",
 		"sideBarTitle.foreground": "#0DE7C2",
 
+		"focusBorder": "#0DE7C2",
+		"editorUnnecessaryCode.opacity": "#6c6c6c90",
+
 		// Editor Cursor
 		"editorCursor.background": "#710000",
 		"editorCursor.foreground": "#0DE7C2",
@@ -253,7 +256,7 @@
 			],
 			"settings": {
 				"foreground": "#9C2BF6",
-				"fontStyle": "underline"
+				// "fontStyle": "underline"
 			}
 		},
 		{
@@ -501,6 +504,200 @@
 			}
 		},
 		
+		
+		// VHDL
+		{
+			// Library
+			"name": "Libraries",
+			"scope": [
+				"keyword.language.vhdl"
+			],
+			"settings": {
+				"foreground": "#FA932E",
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			// Main colour / Source
+			"name": "Source",
+			"scope": [
+				"source.vhdl"
+			],
+			"settings": {
+				"foreground": "#5EF9FF",
+			}
+		},
+		{
+			// Numbers
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric.integer.vhdl",
+				"constant.numeric.quoted.single.std_logic"
+			],
+			"settings": {
+				"foreground": "#FEFB58",
+			}
+		},
+		{
+			// Operators
+			"name": "Operators",
+			"scope": [
+				"keyword.operator.vhdl"
+			],
+			"settings": {
+				"foreground": "#FF6158",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			// Entity / Architecture
+			"name": "Entity_Architecture",
+			"scope": [
+				"entity.name.type.entity.begin.vhdl",
+				"entity.name.type.entity.end.vhdl",
+				"entity.name.type.architecture.begin.vhdl",
+				"entity.name.type.architecture.end.vhdl",
+				"entity.name.type.entity.reference.vhdl"
+			],
+			"settings": {
+				"foreground": "#9C2BF6",
+				"fontStyle": "italic"
+			}
+		},
+
+		// Process
+		{
+			// Process 
+			"name": "Process",
+			"scope": [
+				"meta.block.process.vhdl"
+			],
+			"settings": {
+				// "foreground": "#00ff00",
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			// Case
+			"name": "Case",
+			"scope": [
+				"meta.block.case.vhdl"
+			],
+			"settings": {
+				"foreground": "#B0F9FD"
+			}
+		},
+
+		{
+			// Semicolons / Colons
+			"name": "Semicolon_Colon",
+			"scope": [
+				"punctuation.vhdl",
+				"punctuation.terminator.function_prototype.vhdl",
+				"meta.item.stopping.character.vhdl"
+			],
+			"settings": {
+				"foreground": "#9C2BF6",
+				"fontStyle": "bold"
+			}
+		},
+
+		// Comments
+		// Multi-Line Comment doesn't seem to work
+		// {
+		// 	// Multi-line Comment
+		// 	"name": "Multi-line Comment",
+		// 	"scope": [
+		// 		""
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#E7AE35af",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		{
+			// Single-line Comment
+			"name": "Single-line Comment",
+			"scope": [
+				"comment.line.double-dash.vhdl"
+			],
+			"settings": {
+				"foreground": "#D4D0CFaf",
+				"fontStyle": "italic"
+			}
+		},
+
+		// Package
+		{
+			// Package header
+			"name": "Package_header",
+			"scope": [
+				"entity.name.section.package.begin.vhdl",
+				"entity.name.section.package.end.vhdl"
+			],
+			"settings": {
+				"foreground": "#9C2BF6",
+			}
+		},
+		{
+			// Package body
+			"name": "Package_body",
+			"scope": [
+				"entity.name.section.package_body.begin.vhdl",
+				"entity.name.section.package_body.end.vhdl"
+			],
+			"settings": {
+				"foreground": "#BE76F9",
+			}
+		},
+		{
+			// Function
+			"name": "Function",
+			"scope": [
+				"entity.name.function.function.prototype.vhdl",
+				"entity.name.function.function.begin.vhdl",
+				"entity.name.function.function.end.vhdl"
+			],
+			"settings": {
+				"foreground": "#256FD2",
+			}
+		},
+
+		// Support types
+		{
+			// Support types
+			"name": "Support types",
+			"scope": [
+				"support.type.ieee.std_logic_1164.vhdl",
+				"support.type.std.textio.vhdl"
+			],
+			"settings": {
+				"foreground": "#56F0A3",
+			}
+		},
+		{
+			// Numeric support types
+			"name": "Numeric support types",
+			"scope": [
+				"support.type.ieee.numeric_std.vhdl",
+				"support.type.std.standard.vhdl"
+			],
+			"settings": {
+				"foreground": "#0DE7C2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			// Function support types
+			"name": "Function support types",
+			"scope": [
+				"support.function.ieee.std_logic_1164.vhdl"
+			],
+			"settings": {
+				"foreground": "#256FD2",
+				"fontStyle": "italic"
+			}
+		},
 
 
 		
